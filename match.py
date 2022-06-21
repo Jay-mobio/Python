@@ -8,3 +8,4 @@ def http_error(status):
             print("I'm a teapot") 
         case _:
             print("Something's wrong with the internet") 
+http_error(404)
