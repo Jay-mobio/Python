@@ -12,7 +12,7 @@ def task2():
 
 if __name__ == "__main__":
     print("ID of processing running main program : {}.".format(os.getpid()))
-    print("Main thread name : {}.".format(threading.current_thread().name))
+    print("Main thread name : {}.".format(threading.main_thread().name))
 
     t1 = threading.Thread(target=task1, name='t1')
     t2 = threading.Thread(target=task1, name='t2')
