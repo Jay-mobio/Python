@@ -1,0 +1,11 @@
+a = "hello, and welcome to my world."
+print(a.capitalize())
+print(a.count('a'))
+print(a.endswith('b'))
+print(a.find('t'))
+print(a.isalnum())
+print(a.isalpha())
+print(a.upper())
+print(a.lower())
+print(a.title())
+print(a.replace('to','or'))
