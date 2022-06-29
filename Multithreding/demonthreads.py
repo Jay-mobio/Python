@@ -1,4 +1,4 @@
-from threading import *
+from threading import Thread
 def job1():
     print("Executed by t1")
     t2 = Thread(target=job2)
