@@ -10,11 +10,6 @@ def person_1(lock):
     lock.release()
 
 def person_2(lock):
-    while True:
-        if lock.acquire(timeout=0.5) is True:
-            break
-        else:
-            print("Lock is not free")
     lock.acquire()
     print("Person 2 occupies Meeting Room-1")
     print("Person 2 vacates the Meeting Room-1")
